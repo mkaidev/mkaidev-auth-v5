@@ -15,9 +15,9 @@
 [X] Handle errors
 [X] Hash password
 [X] Create signin page
-[] Create signin validator
-[] Create signin form
-[] Create signin server action
+[X] Create signin validator
+[X] Create signin form
+[X] Create signin server action
 
 == PART 2 ==
 
