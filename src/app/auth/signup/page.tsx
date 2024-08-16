@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
+import { SignupForm } from "./_components/signup-form";
 
 export default function SignupPage() {
   return (
@@ -10,6 +11,7 @@ export default function SignupPage() {
 
         {/* Signup Form */}
         <div className="my-4 h-1 bg-muted" />
+        <SignupForm />
 
         {/* OAuth Links */}
         <div className="my-4 h-1 bg-muted" />

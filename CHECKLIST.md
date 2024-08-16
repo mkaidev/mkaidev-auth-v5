@@ -9,11 +9,11 @@
 [X] Install shadcn button, form, input
 [X] Create signup page
 [X] Install valibot
-[] Create signup validator
-[] Create signup form
-[] Create signup server action
-[] Handle errors
-[] Hash password
+[X] Create signup validator
+[X] Create signup form
+[X] Create signup server action
+[X] Handle errors
+[X] Hash password
 [X] Create signin page
 [] Create signin validator
 [] Create signin form
