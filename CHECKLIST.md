@@ -7,14 +7,14 @@
 [X] Install shadcn/ui
 [X] Create Navbar
 [X] Install shadcn button, form, input
-[] Create signup page
-[] Install valibot
+[X] Create signup page
+[X] Install valibot
 [] Create signup validator
 [] Create signup form
 [] Create signup server action
 [] Handle errors
 [] Hash password
-[] Create signin page
+[X] Create signin page
 [] Create signin validator
 [] Create signin form
 [] Create signin server action
