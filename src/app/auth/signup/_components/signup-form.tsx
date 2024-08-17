@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
@@ -28,13 +29,13 @@ export const SignupForm = () => {
     defaultValues: { name: "", email: "", password: "", confirmPassword: "" },
   });
 
-  const { handleSubmit, control, formState, reset, setError } = form;
+  const { handleSubmit, control, formState, setError } = form;
 
   const submit = async (values: SignupInput) => {
     const res = await signupUserAction(values);
 
     if (res.success) {
-      reset();
+      setSuccess(true);
     } else {
       switch (res.statusCode) {
         case 400:
@@ -53,6 +54,26 @@ export const SignupForm = () => {
       }
     }
   };
+
+  if (success) {
+    return (
+      <div>
+        <p>User successfully created!</p>
+        <span>
+          Click{" "}
+          <Button
+            variant="link"
+            size="sm"
+            className="px-0 text-blue-700"
+            asChild
+          >
+            <Link href="/auth/signin">here</Link>
+          </Button>{" "}
+          to sign in.
+        </span>
+      </div>
+    );
+  }
 
   return (
     <Form {...form}>

@@ -21,19 +21,19 @@
 
 == PART 2 ==
 
-[] Install prettier plugin tailwindcss
-[] Install Drizzle ORM / Drizzle Kit
-[] Create Drizzle Config
-[] Create Drizzle Schema
-[] Install Auth.js
-[] Update drizzle schema (password, role, email uniqueness)
-[] Setup Postgres with NeonDB
-[] Create helper scripts
-[] Show how to view data (drizzle studio, neon console)
-[] Create drizzle singleton
-[] Signup our first user
-[] Handle email conflicts
-[] Create success message
+[X] Install prettier plugin tailwindcss
+[X] Install Drizzle ORM / Drizzle Kit
+[X] Create Drizzle Config
+[X] Create Drizzle Schema
+[X] Install Auth.js
+[X] Update drizzle schema (password, role, email uniqueness)
+[X] Setup Postgres with NeonDB
+[X] Create helper scripts
+[X] Show how to view data (drizzle studio, neon console)
+[X] Create drizzle singleton
+[X] Signup our first user
+[X] Handle email conflicts
+[X] Create success message
 
 == PART 3 ==
 
