@@ -37,15 +37,15 @@
 
 == PART 3 ==
 
-[] Redirect Links
+[X] Redirect Links
 [] Setup AuthJS config
-[] Auth Secret, Auth Url
-[] Partial Signin - Parse Credentials
-[] User Queries
-[] `server-only` package
-[] Partial Signin - Log User
-[] Complete Signin
-[] Error Handling
+[X] Auth Secret, Auth Url
+[X] Partial Signin - Parse Credentials
+[X] User Queries
+[X] `server-only` package
+[X] Partial Signin - Log User
+[X] Complete Signin
+[X] Error Handling
 [] Create /profile
 [] Redirect to /profile
 [] Session info server side (auth function)
